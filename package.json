@@ -1,0 +1,41 @@
+{
+	"name": "slick-ui",
+	"version": "1.0.0",
+	"description": "Basic ui library for our projects needs.",
+	"main": "dist/index.js",
+	"scripts": {
+		"prepublishOnly": "babel ./src --out-dir ./dist -s inline",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"files": [
+		"dist/*"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Aminejvm/slick-ui.git"
+	},
+	"keywords": [
+		"ui",
+		"library",
+		"react",
+		"ui",
+		"styled-components",
+		"x-styled"
+	],
+	"author": "Aminejvm",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Aminejvm/slick-ui/issues"
+	},
+	"peerDependencies": {
+		"react": "^16.8.0"
+	},
+	"homepage": "https://github.com/Aminejvm/slick-ui#readme",
+	"devDependencies": {
+		"@babel/cli": "^7.5.0",
+		"@babel/core": "^7.5.4",
+		"@babel/preset-env": "^7.5.4",
+		"@babel/preset-react": "^7.0.0",
+		"react": "^16.8.6"
+	}
+}
